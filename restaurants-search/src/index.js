@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import '@material/react-text-field/dist/text-field.css';
 
 ReactDOM.render(
   <React.StrictMode>
