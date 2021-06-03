@@ -14,3 +14,4 @@
 - https://fonts.google.com/specimen/Roboto
 - https://www.npmjs.com/package/react-slick
 - https://www.npmjs.com/package/react-rating-stars-component
+- https://pt-br.reactjs.org/docs/portals.html
