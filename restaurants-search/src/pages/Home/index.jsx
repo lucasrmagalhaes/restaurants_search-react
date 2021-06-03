@@ -11,7 +11,7 @@ import { Container, Carousel, Search, Logo, Wrapper, Map, CarouselTitle } from '
 
 const Home = () => {
     const [inputValue, setInputValue] = useState('');
-    const [modalOpened, setModalOpened] = useState(false);
+    const [modalOpened, setModalOpened] = useState(true);
 
     const settings = {
         dots: false,
@@ -50,7 +50,6 @@ const Home = () => {
                         <Card photo={restaurante} title="Nome Restaurante" />
                         <Card photo={restaurante} title="Nome Restaurante" />
                     </Carousel>
-                    <button onClick={() => setModalOpened(true)}>Abrir modal</button>
                 </Search>
                 <RestaurantCard />
             </Container>
