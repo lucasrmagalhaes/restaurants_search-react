@@ -5,7 +5,7 @@
 - yarn add @material/react-material-icon
 - yarn add react-slick
 - yarn add slick-carousel
-- yarn start
+- yarn add react-rating-stars-component
 
 #### Links:
 - https://www.npmjs.com/package/styled-reset
@@ -13,3 +13,5 @@
 - https://www.npmjs.com/package/@material/react-material-icon
 - https://fonts.google.com/specimen/Roboto
 - https://www.npmjs.com/package/react-slick
+- https://www.npmjs.com/package/react-rating-stars-component
+- https://pt-br.reactjs.org/docs/portals.html
