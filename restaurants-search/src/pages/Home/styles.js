@@ -14,3 +14,7 @@ export const Search = styled.section`
     background-color: #FFFFFF;
     padding: 16px;
 `;
+
+export const Logo = styled.img`
+    margin-bottom: 15px;
+`;
