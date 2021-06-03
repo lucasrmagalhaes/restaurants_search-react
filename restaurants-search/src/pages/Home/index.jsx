@@ -4,7 +4,7 @@ import MaterialIcon from '@material/react-material-icon';
 
 import logo from '../../assets/logo.svg';
 
-import { Container, Search, Logo, Wrapper, Map } from './styles';
+import { Container, Search, Logo, Wrapper, Map, CarouselTitle } from './styles';
 
 const Home = () => {
     const [inputValue, setInputValue] = useState('');
@@ -26,6 +26,7 @@ const Home = () => {
                             onChange={(e) => setInputValue(e.target.value)}
                         />
                     </TextField>
+                    <CarouselTitle>Na sua área</CarouselTitle>
                 </Search>
             </Container>
             <Map />
