@@ -5,7 +5,7 @@ import MaterialIcon from '@material/react-material-icon';
 
 import logo from '../../assets/logo.svg';
 import restaurante from '../../assets/restaurante-fake.png';
-import { Card } from '../../components';
+import { Card, RestaurantCard } from '../../components';
 
 import { Container, Carousel, Search, Logo, Wrapper, Map, CarouselTitle } from './styles';
 
@@ -50,6 +50,7 @@ const Home = () => {
                         <Card photo={restaurante} title="Nome Restaurante" />
                     </Carousel>
                 </Search>
+                <RestaurantCard />
             </Container>
             <Map />
         </Wrapper>
