@@ -15,3 +15,4 @@
 - https://www.npmjs.com/package/react-slick
 - https://www.npmjs.com/package/react-rating-stars-component
 - https://pt-br.reactjs.org/docs/portals.html
+- https://developers.google.com/maps/documentation/javascript/places
