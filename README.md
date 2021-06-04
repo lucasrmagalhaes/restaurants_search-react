@@ -1,7 +1,7 @@
 <h1 align="center">RESTAURANT FINDER :fork_and_knife:</h1>
 
 <p align="center">
-  <a href="https://60ba663bcb9596830d0745b9--restaurants-search-react.netlify.app/" target="_blank">
+  <a href="https://restaurants-search-react.netlify.app" target="_blank">
     <img 
          src="https://raw.githubusercontent.com/lucasrmagalhaes/restaurants_search-react/main/src/assets/restaurant-finder.jpg" 
          alt="Restaurant Finder" 
