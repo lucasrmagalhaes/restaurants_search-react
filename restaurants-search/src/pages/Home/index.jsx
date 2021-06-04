@@ -7,7 +7,7 @@ import logo from '../../assets/logo.svg';
 import restaurante from '../../assets/restaurante-fake.png';
 import { Card, RestaurantCard, Modal, Map } from '../../components';
 
-import { Container, Carousel, Search, Logo, Wrapper, CarouselTitle } from './styles';
+import { Container, Carousel, Search, Logo, Wrapper, CarouselTitle, ModalTitle, ModalContent } from './styles';
 
 const Home = () => {
     const [inputValue, setInputValue] = useState('');
@@ -74,9 +74,10 @@ const Home = () => {
             </Container>
             <Map query={query} placeId={placeId} />
             <Modal open={modalOpened} onClose={() => setModalOpened(!modalOpened)}>
-                <p>{restaurantSelected?.name}</p>
-                <p>{restaurantSelected?.formatted_phone_number}</p>
-                <p>{restaurantSelected?.formatted_address}</p>
+                <ModalTitle>{restaurantSelected?.name}</ModalTitle>
+                <ModalContent>{restaurantSelected?.formatted_phone_number}</ModalContent>
+                <ModalContent>{restaurantSelected?.formatted_address}</ModalContent>
+                <ModalContent>{restaurantSelected?.opening_hours?.open_now ? 'Aberto' : 'Fechado'}</ModalContent>
             </Modal>
         </Wrapper>
     );
