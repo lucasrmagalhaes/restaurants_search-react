@@ -14,7 +14,7 @@ const Home = () => {
     const [query, setQuery] = useState(null);
     const [placeId, setPlaceId] = useState(null);
     const [modalOpened, setModalOpened] = useState(true);
-    const { restaurants, restaurantsSelected } = useSelector((state) => state.restaurants);
+    const { restaurants, restaurantSelected } = useSelector((state) => state.restaurants);
 
     const settings = {
         dots: false,
@@ -73,7 +73,11 @@ const Home = () => {
                 ))}
             </Container>
             <Map query={query} placeId={placeId} />
-            <Modal open={modalOpened} onClose={() => setModalOpened(!modalOpened)} />
+            <Modal open={modalOpened} onClose={() => setModalOpened(!modalOpened)}>
+                <p>{restaurantSelected?.name}</p>
+                <p>{restaurantSelected?.formatted_phone_number}</p>
+                <p>{restaurantSelected?.formatted_address}</p>
+            </Modal>
         </Wrapper>
     );
 };
