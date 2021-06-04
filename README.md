@@ -8,6 +8,7 @@
 - yarn add react-rating-stars-component
 - yarn add google-maps-react
 - yarn add redux react-redux
+- yarn add react-lottie
 
 #### Links:
 - https://www.npmjs.com/package/styled-reset
@@ -21,3 +22,5 @@
 - https://github.com/fullstackreact/google-maps-react#readme
 - https://chrome.google.com/webstore/detail/google-maps-platform-api/mlikepnkghhlnkgeejmlkfeheihlehne
 - https://suporte.fastluza.com/knowledge-base/article/como-resolver-o-for-development-purposes-only-do-google-maps
+- https://www.npmjs.com/package/react-lottie
+- https://lottiefiles.com/
