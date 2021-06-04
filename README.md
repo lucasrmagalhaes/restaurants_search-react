@@ -6,6 +6,7 @@
 - yarn add react-slick
 - yarn add slick-carousel
 - yarn add react-rating-stars-component
+- yarn add google-maps-react
 
 #### Links:
 - https://www.npmjs.com/package/styled-reset
@@ -15,3 +16,7 @@
 - https://www.npmjs.com/package/react-slick
 - https://www.npmjs.com/package/react-rating-stars-component
 - https://pt-br.reactjs.org/docs/portals.html
+- https://developers.google.com/maps/documentation/javascript/places
+- https://github.com/fullstackreact/google-maps-react#readme
+- https://chrome.google.com/webstore/detail/google-maps-platform-api/mlikepnkghhlnkgeejmlkfeheihlehne
+- https://suporte.fastluza.com/knowledge-base/article/como-resolver-o-for-development-purposes-only-do-google-maps
