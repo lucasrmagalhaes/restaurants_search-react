@@ -7,6 +7,7 @@
 - yarn add slick-carousel
 - yarn add react-rating-stars-component
 - yarn add google-maps-react
+- yarn add redux react-redux
 
 #### Links:
 - https://www.npmjs.com/package/styled-reset
