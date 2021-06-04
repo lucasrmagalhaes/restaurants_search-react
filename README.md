@@ -8,7 +8,7 @@
     />
   </a>
   <br />
-  <i>Encontrando restaurantes próximos. Utilizando React e Google API - Map e Places.</i>
+  <i>Encontrando restaurantes próximos. Utilizando React e Google API - Maps e Places.</i>
 </p>
 
 <hr />
